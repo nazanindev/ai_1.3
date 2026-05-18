@@ -121,3 +121,6 @@ def delete_comment(
         )
     db.delete(comment)
     db.commit()
+from fastapi import APIRouter
+
+router = APIRouter()

@@ -158,3 +158,6 @@ def assign_task(
     db.commit()
     db.refresh(task)
     return task
+from fastapi import APIRouter
+
+router = APIRouter()
