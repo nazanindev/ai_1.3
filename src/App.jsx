@@ -1,17 +1,15 @@
-import Header from './components/Header'
-import Sidebar from './components/Sidebar'
-import MainContent from './components/MainContent'
+import Header from './components/Header.jsx';
+import Sidebar from './components/Sidebar.jsx';
+import MainContent from './components/MainContent.jsx';
 
-function App() {
+export default function App() {
   return (
-    <div className="flex flex-col h-screen">
-      <Header />
-      <div className="flex flex-1 overflow-hidden">
-        <Sidebar />
+    <div className="flex h-screen overflow-hidden">
+      <Sidebar activeItem="Dashboard" />
+      <div className="flex flex-col flex-1 overflow-y-auto">
+        <Header />
         <MainContent />
       </div>
     </div>
-  )
+  );
 }
-
-export default App
