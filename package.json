@@ -1,0 +1,33 @@
+{
+  "name": "ai_1.3",
+  "version": "1.0.0",
+  "description": "A REST API for managing projects, tasks, and team collaboration, built with FastAPI and SQLAlchemy.",
+  "homepage": "https://github.com/nazanindev/ai_1.3#readme",
+  "bugs": {
+    "url": "https://github.com/nazanindev/ai_1.3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nazanindev/ai_1.3.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.0"
+  }
+}
